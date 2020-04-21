@@ -19,7 +19,7 @@ class Navigation extends Component{
         const typing = setInterval(() => {
             const typed1 = this.state.text1;
             // const typed2 = this.state.text2;            
-            const finalText1 = "안녕하세요~" ;
+            const finalText1 = "안녕하세요~!!!!!!" ;
             // const finalText2 = "React-pages 테스트 입니다";
 
             if(i < finalText1.length ){
