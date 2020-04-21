@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/skop01/static/css/main.9cc2d738.chunk.css",
-    "main.js": "/skop01/static/js/main.e15f0428.chunk.js",
-    "main.js.map": "/skop01/static/js/main.e15f0428.chunk.js.map",
+    "main.css": "/skop01/static/css/main.4c28dff5.chunk.css",
+    "main.js": "/skop01/static/js/main.ad5487af.chunk.js",
+    "main.js.map": "/skop01/static/js/main.ad5487af.chunk.js.map",
     "runtime-main.js": "/skop01/static/js/runtime-main.b9ad90c7.js",
     "runtime-main.js.map": "/skop01/static/js/runtime-main.b9ad90c7.js.map",
     "static/js/2.230a0b58.chunk.js": "/skop01/static/js/2.230a0b58.chunk.js",
     "static/js/2.230a0b58.chunk.js.map": "/skop01/static/js/2.230a0b58.chunk.js.map",
     "index.html": "/skop01/index.html",
-    "precache-manifest.793fc97500d03a5a85de460e23edab10.js": "/skop01/precache-manifest.793fc97500d03a5a85de460e23edab10.js",
+    "precache-manifest.1e9a275fa1295320212b9cc0d9aa6496.js": "/skop01/precache-manifest.1e9a275fa1295320212b9cc0d9aa6496.js",
     "service-worker.js": "/skop01/service-worker.js",
-    "static/css/main.9cc2d738.chunk.css.map": "/skop01/static/css/main.9cc2d738.chunk.css.map",
+    "static/css/main.4c28dff5.chunk.css.map": "/skop01/static/css/main.4c28dff5.chunk.css.map",
     "static/js/2.230a0b58.chunk.js.LICENSE.txt": "/skop01/static/js/2.230a0b58.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b9ad90c7.js",
     "static/js/2.230a0b58.chunk.js",
-    "static/css/main.9cc2d738.chunk.css",
-    "static/js/main.e15f0428.chunk.js"
+    "static/css/main.4c28dff5.chunk.css",
+    "static/js/main.ad5487af.chunk.js"
   ]
 }
