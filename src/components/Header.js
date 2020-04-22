@@ -8,6 +8,9 @@ class Header extends Component{
                 <div className="header-menu">
                     <ul>
                         <li>
+                            <a href="#">About</a>
+                        </li>
+                        <li>
                             <a href="#">Project</a>
                         </li>
                         <li>

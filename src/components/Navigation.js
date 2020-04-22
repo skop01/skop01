@@ -5,7 +5,7 @@ class Navigation extends Component{
     constructor(props){
         super(props);
         this.state={
-            text1:"",
+            text:"",
             // text2:""
 
         }
@@ -17,14 +17,14 @@ class Navigation extends Component{
       
 
         const typing = setInterval(() => {
-            const typed1 = this.state.text1;
+            const typed = this.state.text;
             // const typed2 = this.state.text2;            
-            const finalText1 = "안녕하세요~!!!!!!" ;
+            const finalText = "안녕하세요~!!!!!!~~~~~~~fsdfsdfsdfsdfsdfs" ;
             // const finalText2 = "React-pages 테스트 입니다";
 
-            if(i < finalText1.length ){
+            if(i < finalText.length ){
                 this.setState({
-                    text1: typed1 + finalText1[i],
+                    text: typed + finalText[i],
                     // text2: typed2 + finalText2[i],
                 });
                 i++
@@ -53,7 +53,7 @@ class Navigation extends Component{
     render() {
         return(
             <div className="texture-wrap">
-                <h1 className="texture">{this.state.text1}</h1>
+                <h1 className="texture">{this.state.text}</h1>
                 {/* <h1 className="texture">{this.state.text2}</h1> */}
             </div>
     

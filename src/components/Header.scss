@@ -6,16 +6,20 @@
     position: fixed;
 
     ul{
-        list-style: none;
+        margin: 0;
+        padding: 0;
     li{
-        color: white;
-        float: right;
-        cursor: pointer;
-        margin-right: 1rem;
-        padding: 1rem;
+        display: inline-block;
+        list-style: none;
+        margin: 0 35px;
+        // color: white;
+        // cursor: pointer;
+        // margin-right: 1rem;
+        // padding: 1rem;
     a{
         text-decoration: none;
         color: white;
+        font-size: 20px;
         &:visited{
             text-decoration: none;
         }
@@ -25,8 +29,11 @@
 }
 
 .header-menu{
-    float: right;
     background: black;
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
 }
