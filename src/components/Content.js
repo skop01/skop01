@@ -4,7 +4,8 @@ import './Content.scss';
 class Content extends Component{
     render() {
         return(
-            <div className="about">
+           
+            <div className="about" id="About">
                 <div className="container">
                     <div className="row">
                         <div className="aside">
@@ -20,9 +21,7 @@ class Content extends Component{
                     </div>
                 </div>
             </div>
-            // <div>
-            //     <h2>About me</h2>
-            // </div>
+           
         )
     }
 };

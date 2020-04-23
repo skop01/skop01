@@ -7,17 +7,20 @@ class Header extends Component{
             <div className="header-wrap">
                 <div className="header-menu">
                     <ul>
-                        <li>
-                            <a href="#">About</a>
+                        <li onClick={()=>{document.querySelector('#Home').scrollIntoView();}}>  
+                        Home
+                        </li>
+                        <li onClick={()=>{document.querySelector('#About').scrollIntoView();}}>  
+                             About                      
                         </li>
                         <li>
-                            <a href="#">Project</a>
+                            Project
+                        </li>
+                        <li onClick={()=>{document.querySelector('#Skills').scrollIntoView();}}>  
+                            Skills
                         </li>
                         <li>
-                            <a href="#">Skills</a>
-                        </li>
-                        <li>
-                            <a href="#">Profile</a>
+                           Profile
                         </li>                        
                     </ul>
                 </div>

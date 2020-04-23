@@ -52,10 +52,12 @@ class Navigation extends Component{
 
     render() {
         return(
-            <div className="texture-wrap">
+           
+            <div className="texture-wrap" id="Home">
                 <h1 className="texture">{this.state.text}</h1>
                 {/* <h1 className="texture">{this.state.text2}</h1> */}
             </div>
+           
     
         )   
     }
