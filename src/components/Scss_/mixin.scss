@@ -1,0 +1,19 @@
+@import '/variables';
+
+@mixin mb {
+    @media (min-width: #{$mb}) and (max-width:#{$tb - 1px}) {
+        @content;
+    }
+}
+
+@mixin tb {
+    @media (min-width: #{$tb}) and (max-width:#{$desk - 1px}) {
+        @content;
+    }
+}
+
+@mixin desk {
+    @media (min-width: #{$desk}){
+        @content;
+    }
+}

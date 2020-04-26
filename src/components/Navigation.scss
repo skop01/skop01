@@ -4,22 +4,35 @@
     }
 
     50%{
-    border-color: black;
+    border-color: white;
     }
+}
+
+.bg{
+    background-color: rgba(0, 0, 0, 0.612);
+    height:95vh;
+    width:100%;
+    position: absolute;
 }
     .texture-wrap{
         display: flex;
         justify-content: center;
         align-items: center;
-        height:100vh;
+        height:95vh;
+        background-color: #4c504c;
+        background-blend-mode: multiply;
+        background-image:url('../assets/aa.PNG');
         background-attachment: fixed;
         background-repeat: no-repeat;
         background-size: cover;
-        color: black;
-        width:100%;    
+        color: #d6d1d1;
+        width:100%;
+      
+        
     }
     
     .texture{
+        position: relative;
         font-family: 'Noto Sans KR', sans-serif;
         border-right: 0.1em solid black;
         font-size: 4vw;

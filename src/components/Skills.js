@@ -8,27 +8,22 @@ import vue from '../assets/vue.png';
 import react from '../assets/react.png';
 
 
-// import './Skills.scss';
-
 class Skills extends Component{
     render() {
         return(
           
-            <div className="container2" id="Skills">
-                <div className="skils">
-                        <h2>Skills</h2>
+            <div className="Skills-wrap" id="Skills">
+                <div className="Skills_title">
+                    <h1>Skills</h1>
                 </div>
-                <div className="content1">
-                <div className="img">
-                        <div className="html"><img src={ html } alt="img" height="200" width="200" /></div>
-                        <div className="css"><img src={ css } alt="img" height="220" width="220" /></div>
-                        <div className="js"><img src={ js } alt="img" height="190" width="195" /></div>
-                        <div className="vue"><img src={ vue } alt="img" height="170" width="160" /></div>
-                        <div className="react"><img src={ react } alt="img" height="180" width="180" /></div>
-                </div>
+                <div className="img-icon">       
+                    <div className="langu"><img src={ html } alt="img" height="140" width="140" /></div>
+                    <div className="langu"><img src={ css } alt="img" height="150" width="150" /></div>
+                    <div className="langu"><img src={ js } alt="img" height="130" width="135" /></div>
+                    <div className="langu"><img src={ vue } alt="img" height="100" width="100" /></div>
+                    <div className="langu"><img src={ react } alt="img" height="120" width="120" /></div>                
                 </div>
             </div>
-           
         )
     }
 };
