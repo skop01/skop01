@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/skop01/static/css/main.8027d630.chunk.css",
-    "main.js": "/skop01/static/js/main.fc7adf79.chunk.js",
-    "main.js.map": "/skop01/static/js/main.fc7adf79.chunk.js.map",
+    "main.css": "/skop01/static/css/main.ee11b29e.chunk.css",
+    "main.js": "/skop01/static/js/main.134403a3.chunk.js",
+    "main.js.map": "/skop01/static/js/main.134403a3.chunk.js.map",
     "runtime-main.js": "/skop01/static/js/runtime-main.b5c76bfa.js",
     "runtime-main.js.map": "/skop01/static/js/runtime-main.b5c76bfa.js.map",
-    "static/js/2.54c9aac1.chunk.js": "/skop01/static/js/2.54c9aac1.chunk.js",
-    "static/js/2.54c9aac1.chunk.js.map": "/skop01/static/js/2.54c9aac1.chunk.js.map",
+    "static/js/2.72cd1887.chunk.js": "/skop01/static/js/2.72cd1887.chunk.js",
+    "static/js/2.72cd1887.chunk.js.map": "/skop01/static/js/2.72cd1887.chunk.js.map",
     "index.html": "/skop01/index.html",
-    "precache-manifest.d3f3384b18111313a5cf276519ecc389.js": "/skop01/precache-manifest.d3f3384b18111313a5cf276519ecc389.js",
+    "precache-manifest.3edb92597973361a61647f771fc2ce57.js": "/skop01/precache-manifest.3edb92597973361a61647f771fc2ce57.js",
     "service-worker.js": "/skop01/service-worker.js",
-    "static/css/main.8027d630.chunk.css.map": "/skop01/static/css/main.8027d630.chunk.css.map",
-    "static/js/2.54c9aac1.chunk.js.LICENSE.txt": "/skop01/static/js/2.54c9aac1.chunk.js.LICENSE.txt",
+    "static/css/main.ee11b29e.chunk.css.map": "/skop01/static/css/main.ee11b29e.chunk.css.map",
+    "static/js/2.72cd1887.chunk.js.LICENSE.txt": "/skop01/static/js/2.72cd1887.chunk.js.LICENSE.txt",
+    "static/media/Navigation.scss": "/skop01/static/media/aa.ac108bdf.PNG",
     "static/media/css.png": "/skop01/static/media/css.2b3f5911.png",
     "static/media/html.png": "/skop01/static/media/html.daffc018.png",
     "static/media/js.png": "/skop01/static/media/js.ec27dc2a.png",
+    "static/media/mattina.PNG": "/skop01/static/media/mattina.7bea79a9.PNG",
+    "static/media/mypicture.jpg": "/skop01/static/media/mypicture.748273ab.jpg",
     "static/media/react.png": "/skop01/static/media/react.f3025324.png"
   },
   "entrypoints": [
     "static/js/runtime-main.b5c76bfa.js",
-    "static/js/2.54c9aac1.chunk.js",
-    "static/css/main.8027d630.chunk.css",
-    "static/js/main.fc7adf79.chunk.js"
+    "static/js/2.72cd1887.chunk.js",
+    "static/css/main.ee11b29e.chunk.css",
+    "static/js/main.134403a3.chunk.js"
   ]
 }
