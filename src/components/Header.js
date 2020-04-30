@@ -18,9 +18,11 @@ class Header extends Component{
         e.preventDefault();
         this.setState({open:true},() =>{
             document.addEventListener('click',this.closeMenu);
-            // const ab = document.querySelector('.toggle_icon');
-            // ab.style.background= "white";
-            // ab.style.display = "none";
+            const toggle = document.querySelector('.toggle_icon');
+            const toggle_menu = document.querySelector('.menu');
+            toggle.style.display = "none";
+            toggle_menu.style.position="absolute"
+          
             
         });
     }
@@ -29,6 +31,8 @@ class Header extends Component{
         if(!this.dropMenu.contains(e.target)){
             this.setState({open:false}, () => {
                 document.removeEventListener('click', this.closeMenu);
+                const toggle = document.querySelector('.toggle_icon');
+                toggle.style.display = "block";
             });
         }
     }
